@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510531FC20749C3500CC047C /* DNLocalAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510531FB20749C3500CC047C /* DNLocalAuthentication.swift */; };
 		515F5F601DAE060300D1706E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515F5F5F1DAE060300D1706E /* AppDelegate.swift */; };
 		515F5F621DAE060300D1706E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515F5F611DAE060300D1706E /* ViewController.swift */; };
 		515F5F651DAE060300D1706E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515F5F631DAE060300D1706E /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		510531FB20749C3500CC047C /* DNLocalAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNLocalAuthentication.swift; sourceTree = "<group>"; };
 		515F5F5C1DAE060300D1706E /* DNLocalAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNLocalAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515F5F5F1DAE060300D1706E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		515F5F611DAE060300D1706E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				515F5F5F1DAE060300D1706E /* AppDelegate.swift */,
 				515F5F611DAE060300D1706E /* ViewController.swift */,
+				510531FB20749C3500CC047C /* DNLocalAuthentication.swift */,
 				515F5F631DAE060300D1706E /* Main.storyboard */,
 				515F5F661DAE060300D1706E /* Assets.xcassets */,
 				515F5F681DAE060300D1706E /* LaunchScreen.storyboard */,
@@ -108,7 +111,7 @@
 				TargetAttributes = {
 					515F5F5B1DAE060300D1706E = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 2WDC84HZ5E;
+						DevelopmentTeam = U5DT7QP947;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510531FC20749C3500CC047C /* DNLocalAuthentication.swift in Sources */,
 				515F5F621DAE060300D1706E /* ViewController.swift in Sources */,
 				515F5F601DAE060300D1706E /* AppDelegate.swift in Sources */,
 			);
@@ -286,11 +290,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2WDC84HZ5E;
+				DEVELOPMENT_TEAM = U5DT7QP947;
 				INFOPLIST_FILE = DNLocalAuthentication/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocalAuthentication.mainone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocalAuthentication.mainone.a;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -301,11 +305,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2WDC84HZ5E;
+				DEVELOPMENT_TEAM = U5DT7QP947;
 				INFOPLIST_FILE = DNLocalAuthentication/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocalAuthentication.mainone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNLocalAuthentication.mainone.a;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
